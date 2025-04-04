@@ -1,0 +1,79 @@
+/* css styles */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Denzel Washington</title>
+</head>
+<body>
+    <header>
+        <h1>Denzel Washington</h1>
+    </header>
+    
+    <main>
+        <section class="introduction">
+            <h2>About Denzel</h2>
+            <p>
+                Denzel Washington is an acclaimed American actor, director, and producer. Known for his powerful performances and charisma, he has earned numerous awards, including two Academy Awards, three Golden Globe Awards, and a Tony Award. Washington's career spans over four decades, with iconic roles in films such as "Training Day," "Malcolm X," and "Fences," showcasing his versatility and depth as a performer.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Denzel Washington Tribute</p>
+    </footer>
+</body>
+</html>
+CSS Code
+Save the following CSS code in a file called styles.css (or whatever name you prefer):
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.introduction h2 {
+    color: #2980b9;
+}
+
+.introduction p {
+    font-size: 1.2em;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #2c3e50;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
